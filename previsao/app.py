@@ -4,7 +4,6 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import os
 
-
 def obter_previsao_tempo(cidade, api_key):
     url = "http://api.openweathermap.org/data/2.5/forecast"
 
